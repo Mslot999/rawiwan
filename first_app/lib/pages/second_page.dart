@@ -27,7 +27,12 @@ class SecondPage extends StatelessWidget{
               child: Column(
                 children: [
                   Text('Item ${entries[index]}'),
-                  NameCard(),
+                  NameCard(data: NameCardData(
+                    name: 'Rawiwan Simmakum',
+                    dob: 'xx/xx/xxxx',
+                    imageUrl: 'https://mentor2code.com/assets/img/logo-small.png%27',
+                    ),
+                  )
                 ],
               ),
             ),
