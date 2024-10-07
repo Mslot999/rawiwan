@@ -1,0 +1,51 @@
+final List<Map<String, dynamic>> RecruitCardData = [
+  {
+    'companyname': 'egghead',
+    'skillrequire': 'javascript, python , sql',
+    'companyImage': 'assets/images/logo.png',
+    'companyRating': 2.5,
+    'salary': '50000 - 100000',
+  },
+  {
+    'companyname': 'marineford',
+    'skillrequire': 'javascript, python , c, sql, html/css',
+    'companyImage': 'assets/images/logo.png',
+    'companyRating': 5.0,
+    'salary': '50000 - 100000',
+  },
+  {
+    'companyname': 'laughtale',
+    'skillrequire': 'php, sql',
+    'companyImage': 'assets/images/logo.png',
+    'companyRating': 1.0,
+    'salary': '50000 - 100000',
+  },
+  {
+    'companyname': 'dresrosa',
+    'skillrequire': 'flutter , sql, html/css',
+    'companyImage': 'assets/images/logo.png',
+    'companyRating': 4.5,
+    'salary': '50000 - 100000',
+  },
+  {
+    'companyname': 'dinosuar',
+    'skillrequire': 'flutter , sql, html/css',
+    'companyImage': 'assets/images/logo.png',
+    'companyRating': 5.0,
+    'salary': '50000 - 100000',
+  },
+  {
+    'companyname': 'lalulby',
+    'skillrequire': 'flutter , sql, html/css',
+    'companyImage': 'assets/images/logo.png',
+    'companyRating': 4.0,
+    'salary': '50000 - 100000',
+  },
+  {
+    'companyname': 'megneto',
+    'skillrequire': 'flutter , sql, html/css',
+    'companyImage': 'assets/images/logo.png',
+    'companyRating': 3.5,
+    'salary': '50000 - 100000',
+  },
+];
