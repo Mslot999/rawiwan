@@ -1,0 +1,5 @@
+get http://localhost:3000/posts
+
+get http://localhost:3000/comments
+
+get http://localhost:3000/profile
