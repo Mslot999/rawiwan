@@ -11,7 +11,7 @@ class FirstPage extends StatelessWidget{
       ),
       body: GridView.count(
         crossAxisCount: 2,
-        children: List.generate(6, (index){
+        children: List.generate(7, (index){
           return InkWell(
             onTap: () {
               if (index == 0){
