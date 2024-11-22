@@ -41,6 +41,7 @@ class _SeventhPageState extends State<SeventhPage> {
                   value: posts[index].isRead,
                   onChanged: (value) {
                     setState(() => posts[index].isRead = value!);
+                    controller.updatePost(posts[index]);
                   });
             }
             return Center(
