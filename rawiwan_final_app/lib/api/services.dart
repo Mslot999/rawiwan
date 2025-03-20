@@ -20,6 +20,7 @@ Future<void> addToScheduleForUser({
   required String title,
   required String img,
   required String dateTime,
+  int? eps,
 }) async {
   final userDoc =
       FirebaseFirestore.instance.collection('rawiwan_users').doc(uid);
@@ -33,6 +34,7 @@ Future<void> addToScheduleForUser({
           'title': title,
           'img': img,
           'dateTime': dateTime,
+          'eps': eps,
         }
       ])
     });
@@ -49,6 +51,7 @@ Future<void> addToScheduleForUser({
           'title': title,
           'img': img,
           'dateTime': dateTime,
+          'eps': eps,
         }
       ]
     });
@@ -99,6 +102,7 @@ Future<void> checkScheduleConflict(
                     title: rawiwanMovie.title,
                     img: rawiwanMovie.img,
                     dateTime: selectedDateTime,
+                    eps: rawiwanMovie.eps,
                   );
                   Navigator.of(context).pop();
                   ScaffoldMessenger.of(context).showSnackBar(
@@ -118,6 +122,7 @@ Future<void> checkScheduleConflict(
         title: rawiwanMovie.title,
         img: rawiwanMovie.img,
         dateTime: selectedDateTime,
+        eps: rawiwanMovie.eps,
       );
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Movie added to schedule')),
