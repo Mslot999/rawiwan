@@ -1,0 +1,9 @@
+GET http://172.20.10.6:3000/courses/c001
+
+PATCH http://172.20.10.6:3000/courses/$courseId
+
+get http://172.20.10.6:3000/myfavoriteCourses
+
+get http://172.20.10.6:3000/mybought
+
+DELETE http://172.20.10.6:3000/myfavoriteCourses/c002
